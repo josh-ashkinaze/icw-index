@@ -72,9 +72,8 @@ This implementation is simpler than `swindex` and has the following restrictions
 - **No missing data**: Input arrays must not contain NaN values
 - **Full sample reference**: Always uses the full dataset as the reference group
 - **User handles sign orientation**: Assumes input data is already oriented so higher values indicate better outcomes
-
-If you need more flexibility, feel free to submit a pull request (with tests against `swindex`).
-
+- **Report bugs**: I imagine I missed some edge cases. Feel free to report bugs. 
+-
 ## System I Ran Tests On
 I was using Python 3.13, `requirements.txt` packages, MacOS, and Stata 19.5 for testing.
 
