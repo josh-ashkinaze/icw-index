@@ -73,7 +73,7 @@ This implementation is simpler than `swindex` and has the following restrictions
 - **Full sample reference**: Always uses the full dataset as the reference group
 - **User handles sign orientation**: Assumes input data is already oriented so higher values indicate better outcomes
 - **Report bugs**: I imagine I missed some edge cases. Feel free to report bugs. 
--
+
 ## System I Ran Tests On
 I was using Python 3.13, `requirements.txt` packages, MacOS, and Stata 19.5 for testing.
 
