@@ -60,6 +60,7 @@ def icw_index(arrays):
     index_sd = np.std(index, ddof=1)
     final_index = index_demeaned / index_sd
 
+
     return final_index
 
 

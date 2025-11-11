@@ -58,12 +58,12 @@ I validated this implementation against Stata's `swindex` (version 14) using 100
 ### Results
 
 - **Correlation**: 0.999999999999999
+- **Differences > 1e-06**: 0
 - **Max absolute difference**: 2.42e-07
 - **Median absolute difference**: 2.88e-08
 - **Mean absolute difference**: 3.71e-08
-- **Differences > 1e-06**: 0
 
-The results are effectively identical to Stata's implementation.
+The results are effectively identical to Stata's implementation, within floating point precision limits.
 
 ## Limitations
 
@@ -98,3 +98,7 @@ If you use this implementation in your work, please cite:
 ## Issues
 
 Please open an issue if you find any bugs or edge cases.
+
+## ToDos
+- Add option for user-specified reference group as in Schwab et al. (2020)
+- Add handling for missing data as in Schwab et al. (2020)
