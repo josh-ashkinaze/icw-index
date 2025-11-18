@@ -22,7 +22,8 @@ df = pd.DataFrame({'var1': np.random.rand(100),
 # Full sample normalization, no reference group. Entire index is distributed M=0, SD=1
 df['icw'] = icw_index([df['var1'].values, df['var2'].values]) 
 
-# User-specified reference group normalization. Control group is distributed M=0, SD=1 and treatment group is relative to that.
+# User-specified reference group normalization. Control group is distributed M=0, SD=1 
+# and treatment group is in effect size units relative to control group.
 ref_mask = (df['treat'] == 0).values
 df['icw_control_reference'] = icw_index([df['var1'].values, df['var2'].values],
                                  reference_mask=ref_mask) 
