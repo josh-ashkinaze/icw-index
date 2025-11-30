@@ -20,7 +20,7 @@ pip install icw-index
 ```
 
 ## Usage
-It is a function, `icw_index` that has two arguments:
+This library is a function, `icw_index`, that has two arguments:
 - `index_vars`: A list of length `N` numpy arrays, each containing one variable to include in the index. All arrays must be the same length.
 - `reference_mask`: (optional) A boolean numpy array of the same length as the index variables, indicating which observations to use as the reference group for normalization. If not provided, the full sample is used (which is the default in STATA `swindex`)
 
