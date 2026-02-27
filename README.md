@@ -177,6 +177,20 @@ If you use this implementation in your work, please cite:
   year         = {2025},
   url =        = {https://github.com/josh-ashkinaze/icw-index},
 }
+
+@article{Anderson01122008,
+  author    = {Michael L. Anderson},
+  title     = {Multiple Inference and Gender Differences in the Effects of Early Intervention: A Reevaluation of the Abecedarian, Perry Preschool, and Early Training Projects},
+  journal   = {Journal of the American Statistical Association},
+  volume    = {103},
+  number    = {484},
+  pages     = {1481--1495},
+  year      = {2008},
+  publisher = {Taylor \& Francis},
+  doi       = {10.1198/016214508000000841},
+  url       = {https://doi.org/10.1198/016214508000000841},
+  eprint    = {https://doi.org/10.1198/016214508000000841}
+}
 ```
 
 ## Issues
